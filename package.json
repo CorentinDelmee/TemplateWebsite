@@ -1,0 +1,12 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass ./front/sass/main.scss:./front/public/css/style.css -w --style compressed",
+    "prefix": "postcss ./front/public/css/style.css --use autoprefixer -d ./front/public/css/prefixed/"
+  },
+  "author": "",
+  "license": "ISC"
+}
